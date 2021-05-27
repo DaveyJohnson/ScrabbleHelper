@@ -15,6 +15,8 @@ input.oninvalid = function(event) {
 }
 
 btn.onclick = function(){
+    const div = document.getElementById('notify');
+    div.innerText = "";
     let results = [];
     arr = combinations(input.value);
     arr.forEach(item => {
