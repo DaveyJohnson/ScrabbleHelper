@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+input:invalid {
+    border-color: red;
+}
+input,
+input:valid {
+    border-color: #ccc;
+}
+
+input.invalid {
+    border-color: #DD2C00;
+    animation: shake;
+}
+
+body {
+    background-color:lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
